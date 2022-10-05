@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/omdb-redux/static/css/main.dad7057a.css",
+    "main.js": "/omdb-redux/static/js/main.882ec76a.js",
+    "index.html": "/omdb-redux/index.html",
+    "main.dad7057a.css.map": "/omdb-redux/static/css/main.dad7057a.css.map",
+    "main.882ec76a.js.map": "/omdb-redux/static/js/main.882ec76a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dad7057a.css",
+    "static/js/main.882ec76a.js"
+  ]
+}
