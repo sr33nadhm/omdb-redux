@@ -13,9 +13,11 @@ function App() {
         <Header />
         <div className="container">
           <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/movie/:imdbID' element={<MovieDetails />} />
-            <Route path="*" element={<PageNotFound />} />
+            <Route path='/omdb-redux'>
+              <Route index element={<Home />} />
+              <Route path='movie/:imdbID' element={<MovieDetails />} />
+              <Route path="*" element={<PageNotFound />} />
+            </Route>
           </Routes>
         </div>
         <Footer />
